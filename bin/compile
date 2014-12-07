@@ -183,7 +183,7 @@ set-env LIBRARY_PATH /app/.heroku/vendor/lib:/app/.heroku/python/lib
 set-env LD_LIBRARY_PATH '/app/.heroku/vendor/lib:/app/.heroku/python/lib:$LD_LIBRARY_PATH'
 set-default-env LANG en_US.UTF-8
 set-default-env PYTHONHASHSEED random
-set-default-env PYTHONPATH /app/
+set-default-env PYTHONPATH /app/:/pynaoqi/
 
 
 # Experimental post_compile hook.
